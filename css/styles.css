@@ -1,0 +1,277 @@
+/*----------------------------------Navbar-------------------------------*/
+
+nav {
+    background-color: #392f5a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*----------------------------------Navbar-logo-------------------------------*/
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+    display: inline-block;
+}
+
+/*----------------------------------Navbar-right-------------------------------*/
+
+.nav-right {
+    display: inline-block;
+}
+
+/*----------------------------------Navbar-Inspiration-dropdown------------*/
+
+.drop-menu {
+  margin-left: 24px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.35);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #fff8f0;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*----------------------------------Rest of Navbar-------------------------------*/
+
+.nav-home {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+}
+
+.nav-services {
+    margin-left: 24px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: inline-block; 
+}
+
+.nav-about {
+    margin-left: 24px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: inline-block; 
+}
+
+.nav-contact {
+    margin-right: 24px;
+    margin-left: 24px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: inline-block; 
+}
+
+/*----------------------------------Hero-image-------------------------------*/
+
+.hero-image {
+    background-image: url("/images/hero-one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    padding: 30px;
+}
+
+
+/*----------------------------------Budskap-------------------------------*/
+
+.message-first {
+    color: white;
+    width: 35%;
+    font-size: 20px;
+}
+
+.message-first h3 {
+    margin-top: 0;
+}
+
+.message-second {
+    color: white;
+    width: 35%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.message-first-text {
+    padding: 5px;
+    width: 80%;
+    margin: 24px auto;
+    text-align: center;
+    background-color: #9dd9d2;
+}
+
+.message-second-text {
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #9dd9d2                                                                                                                                                               ;
+}
+
+/*----------------------------------cta-------------------------------*/
+
+.cta-button {
+    margin: 16px;
+    padding: 24px 40px;
+    font-size: 32px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff8811;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.cta-button:hover {
+    background-color: #3e8e41
+}
+
+.cta-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*----------------------------------footer-------------------------------*/
+
+.footer-container {
+    background-color: #392f5a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    padding-top: 16px;
+    margin-top: 40px;
+}
+
+.footer-container i {
+    color: white;
+}
+
+.description {
+   margin-left: 16px;
+    display: inline-block;
+    width: 15%;
+}
+
+.acclaims {
+    margin: 20px;
+    display: inline-block;
+}
+
+.acclaims img {
+    width: 80px;
+}
+
+.social-media {
+    width: 15%;
+    display: inline-block;
+}
+
+.social-media a {
+    margin: 10px;
+    display: inline-block;
+}
+
+.footer-contact {
+display: inline-block;
+width: 15%;
+}
+
+/*----------------------------------tjanster-services-------------------------------*/
+
+.hero-image h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.services-container div {
+  display: flex;
+  grid-gap: 8px;
+  width: 70%;
+}
+
+.services-container-one {
+    margin: 0 auto;
+}
+    
+.services-container-two {
+    margin: 0 auto;
+}
+
+.column {
+    background-color: #9dd9d2;
+    text-align: center;
+}
+
+.services-container-two {
+    margin-top: 8px;
+}
+
+.services-container-one {
+    margin-top: 8px;
+}
+
+/*----------------------------------about-ommig-------------------------------*/
+
+.about-picture img {
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
