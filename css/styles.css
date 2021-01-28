@@ -113,7 +113,7 @@ nav a {
 }
 
 
-/*----------------------------------Budskap-------------------------------*/
+/*----------------------------------Startpage-messages-Budskap-------------------------------*/
 
 .message-first {
     color: white;
@@ -146,13 +146,14 @@ nav a {
     width: 80%;
     margin: auto;
     text-align: center;
-    background-color: #9dd9d2                                                                                                                                                               ;
+    background-color: #9dd9d2;
+    margin-bottom: 24px;
 }
 
-/*----------------------------------cta-------------------------------*/
+/*----------------------------------cta-button------------------------------*/
 
 .cta-button {
-    margin: 16px;
+    margin: 32px;
     padding: 24px 40px;
     font-size: 32px;
     cursor: pointer;
@@ -191,7 +192,6 @@ nav a {
     align-items: center;
     bottom: 0;
     padding-top: 16px;
-    margin-top: 40px;
 }
 
 .footer-container i {
@@ -310,3 +310,32 @@ width: 15%;
     align-items: center;
     margin-left: 376px;
 } 
+
+/*----------------------------------Contact-form-Kontakt-------------------------------*/
+
+.form-section {
+    text-align: center;
+    background-color: #9dd9d2;
+}
+
+.signup-form {
+    background-color: #9dd9d2;
+}
+
+.text-input {
+    width: 20%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#comment {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    width: 20%;
+    height: 184px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
