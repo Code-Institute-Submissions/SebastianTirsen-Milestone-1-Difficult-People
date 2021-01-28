@@ -240,29 +240,25 @@ width: 15%;
 
 .services-container div {
   display: flex;
-  grid-gap: 8px;
-  width: 70%;
+  grid-gap: 24px;
+  width: 64%;
 }
 
 .services-container-one {
     margin: 0 auto;
+    margin-top: 24px;
 }
     
 .services-container-two {
     margin: 0 auto;
+    margin-top: 24px;
 }
 
 .column {
     background-color: #9dd9d2;
     text-align: center;
-}
-
-.services-container-two {
-    margin-top: 8px;
-}
-
-.services-container-one {
-    margin-top: 8px;
+    height: 248px;
+    width: 248px;
 }
 
 /*----------------------------------about-ommig-------------------------------*/
@@ -275,3 +271,42 @@ width: 15%;
     border-radius: 50%;
     object-fit: cover;
 }
+
+.about-text-one {
+    display: inline-block;
+    width: 30%;
+    margin-left: 308px;
+    background-color: #9dd9d2;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.about-text-two {
+    width: 30%;
+    margin: 40px;
+    margin-left: 316px;
+    background-color: #9dd9d2;
+    padding: 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.about-text-three {
+    display: inline-block;
+    width: 30%;
+    background-color: #9dd9d2;
+    padding: 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.about-philosophy {
+    display: inline-block;
+    text-align: center;
+    width: 552px;
+    height: 552px;
+    border-radius: 50%;
+    background-color: #9dd9d2;
+    align-items: center;
+    margin-left: 376px;
+} 
