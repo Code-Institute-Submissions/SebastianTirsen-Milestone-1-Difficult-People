@@ -261,7 +261,7 @@ width: 15%;
     width: 248px;
 }
 
-/*----------------------------------about-ommig-------------------------------*/
+/*----------------------------------About-ommig-------------------------------*/
 
 .about-picture img {
     margin-top: 8px;
@@ -339,3 +339,22 @@ width: 15%;
     border: 1px solid black;
     border-radius: 8px;
 }
+
+/*----------------------------------Theory-Teori-------------------------------*/
+
+.theory-container {
+    display: flex;
+    justify-content: center;
+}
+
+.theory-container > div {
+    margin: 16px;
+    width: 25%;
+    height: auto;
+} 
+
+
+
+
+
+/*----------------------------------Tools-Verktyg-------------------------------*/
