@@ -1,3 +1,9 @@
+ 
+ body {
+        background-color: #392f5a;
+ }
+
+
 /*----------------------------------Navbar-------------------------------*/
 
 nav {
@@ -10,7 +16,7 @@ nav {
 /*----------------------------------Navbar-logo-------------------------------*/
 
 nav a {
-    color: white;
+    color: #fff8f0;
     text-decoration: none;
 }
 
@@ -31,7 +37,7 @@ nav a {
 
 .drop-menu {
   margin-left: 24px;
-  color: white;
+  color: #fff8f0;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -116,17 +122,17 @@ nav a {
 /*----------------------------------Startpage-messages-Budskap-------------------------------*/
 
 .message-first {
-    color: white;
+    color:#fff8f0;
     width: 35%;
     font-size: 20px;
 }
 
-.message-first h3 {
+.message-first h2 {
     margin-top: 0;
 }
 
 .message-second {
-    color: white;
+    color:#fff8f0;
     width: 35%;
     font-size: 20px;
     display: flex;
@@ -134,20 +140,39 @@ nav a {
 }
 
 .message-first-text {
+    color:#fff8f0;
     padding: 5px;
     width: 80%;
     margin: 24px auto;
     text-align: center;
-    background-color: #9dd9d2;
 }
 
 .message-second-text {
+    color:#fff8f0;
     padding: 5px;
     width: 80%;
     margin: auto;
     text-align: center;
-    background-color: #9dd9d2;
     margin-bottom: 24px;
+}
+
+/*----------------------------------Startpage-Testimonials-------------------------------*/
+
+#testimonials-container {
+    color:#fff8f0;
+}
+
+#testimonials-container h3{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#testimonials-container > div {
+    color:#fff8f0;
+    font-style: italic;
+    width: 30%;
+    margin: 0 auto;
 }
 
 /*----------------------------------cta-button------------------------------*/
@@ -157,10 +182,11 @@ nav a {
     padding: 24px 40px;
     font-size: 32px;
     cursor: pointer;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #fff;
+    color:#fff8f0;
     background-color: #ff8811;
     border: none;
     border-radius: 15px;
@@ -186,7 +212,7 @@ nav a {
 
 .footer-container {
     background-color: #392f5a;
-    color: white;
+    color:#fff8f0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -195,7 +221,7 @@ nav a {
 }
 
 .footer-container i {
-    color: white;
+    color:#fff8f0;
 }
 
 .description {
@@ -231,7 +257,7 @@ width: 15%;
 /*----------------------------------tjanster-services-------------------------------*/
 
 .hero-image h2 {
-    color: white;
+    color: #fff8f0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,9 +265,11 @@ width: 15%;
 }
 
 .services-container div {
-  display: flex;
+    color:#444444;
+    display: flex;
   grid-gap: 24px;
   width: 64%;
+  border-radius: 25px;
 }
 
 .services-container-one {
@@ -263,9 +291,13 @@ width: 15%;
 
 /*----------------------------------About-ommig-------------------------------*/
 
+.about-container {
+    color: #444444;
+}
+
 .about-picture img {
-    margin-top: 8px;
-    margin-left: 8px;
+    margin-top: 32px;
+    margin-left: 32px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -314,12 +346,9 @@ width: 15%;
 /*----------------------------------Contact-form-Kontakt-------------------------------*/
 
 .form-section {
+    background-color: #fff8f0;
+    padding: 32px;
     text-align: center;
-    background-color: #9dd9d2;
-}
-
-.signup-form {
-    background-color: #9dd9d2;
 }
 
 .text-input {
@@ -334,15 +363,20 @@ width: 15%;
     display: block;
     margin: 0 auto;
     margin-bottom: 24px;
-    width: 20%;
+    width: 24%;
     height: 184px;
     border: 1px solid black;
     border-radius: 8px;
 }
 
+.radio-section {
+    padding-top: 32px;
+}
+
 /*----------------------------------Theory-Teori-------------------------------*/
 
 .theory-container {
+    color: #444444;
     display: flex;
     justify-content: center;
 }
@@ -351,10 +385,7 @@ width: 15%;
     margin: 16px;
     width: 25%;
     height: auto;
+    border-radius: 25px;
 } 
-
-
-
-
 
 /*----------------------------------Tools-Verktyg-------------------------------*/
