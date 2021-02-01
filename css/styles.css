@@ -107,6 +107,18 @@ nav a {
 
 /*----------------------------------Hero-image-------------------------------*/
 
+.hero-image-start {
+    background-image: url("/images/hero-one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    padding: 30px;
+    margin-bottom: 48px;
+}
+
 .hero-image {
     background-image: url("/images/hero-one.png");
     background-repeat: no-repeat;
@@ -116,8 +128,31 @@ nav a {
     justify-content: center;
     height: 600px;
     padding: 30px;
+    margin-bottom: 48px;
 }
 
+.hr-start {
+    border: 5px solid #ff8811;
+    width: 100px;
+}
+
+.hero-filter {
+    font-size: 1.5em;
+    position: relative;
+}
+
+.hero-filter h2 {
+    
+    color: #fff8f0;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    color: #fff8f0;
+}
+
+.hero-image {
+    filter: brightness(0.5);
+}
 
 /*----------------------------------Startpage-messages-Budskap-------------------------------*/
 
@@ -159,11 +194,12 @@ nav a {
 /*----------------------------------Startpage-Testimonials-------------------------------*/
 
 #testimonials-container {
+    margin-top: 48px;
+    margin-bottom: 48px;
     color:#fff8f0;
 }
 
 #testimonials-container h3{
-    width: 30%;
     margin: 0 auto;
     text-align: center;
 }
@@ -178,7 +214,7 @@ nav a {
 /*----------------------------------cta-button------------------------------*/
 
 .cta-button {
-    margin: 32px;
+    margin: 48px;
     padding: 24px 40px;
     font-size: 32px;
     cursor: pointer;
@@ -256,20 +292,18 @@ width: 15%;
 
 /*----------------------------------tjanster-services-------------------------------*/
 
-.hero-image h2 {
-    color: #fff8f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
+.services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    width: 64%;
+    margin: 48px auto;
 }
 
 .services-container div {
     color:#444444;
-    display: flex;
-  grid-gap: 24px;
-  width: 64%;
-  border-radius: 25px;
+    border-radius: 25px;
 }
 
 .services-container-one {
@@ -283,10 +317,9 @@ width: 15%;
 }
 
 .column {
-    background-color: #9dd9d2;
+    background-color: #fff8f0;
     text-align: center;
     height: 248px;
-    width: 248px;
 }
 
 /*----------------------------------About-ommig-------------------------------*/
@@ -308,7 +341,7 @@ width: 15%;
     display: inline-block;
     width: 30%;
     margin-left: 308px;
-    background-color: #9dd9d2;
+    background-color: #fff8f0;
     text-align: center;
     border-radius: 25px;
 }
@@ -317,7 +350,7 @@ width: 15%;
     width: 30%;
     margin: 40px;
     margin-left: 316px;
-    background-color: #9dd9d2;
+    background-color: #fff8f0;
     padding: 8px;
     text-align: center;
     border-radius: 25px;
@@ -326,19 +359,20 @@ width: 15%;
 .about-text-three {
     display: inline-block;
     width: 30%;
-    background-color: #9dd9d2;
+    background-color: #fff8f0;
     padding: 8px;
     text-align: center;
     border-radius: 25px;
 }
 
 .about-philosophy {
-    display: inline-block;
+    display: grid;
+    place-content: center;
     text-align: center;
     width: 552px;
     height: 552px;
     border-radius: 50%;
-    background-color: #9dd9d2;
+    background-color: #fff8f0;
     align-items: center;
     margin-left: 376px;
 } 
@@ -346,6 +380,7 @@ width: 15%;
 /*----------------------------------Contact-form-Kontakt-------------------------------*/
 
 .form-section {
+    color: #444444;
     background-color: #fff8f0;
     padding: 32px;
     text-align: center;
@@ -379,6 +414,7 @@ width: 15%;
     color: #444444;
     display: flex;
     justify-content: center;
+    margin-top: 48px;
 }
 
 .theory-container > div {
