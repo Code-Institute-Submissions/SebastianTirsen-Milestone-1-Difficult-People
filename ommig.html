@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Besvärliga människor</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
     crossorigin="anonymous" />
@@ -13,44 +17,59 @@
 </head>
 <body>
 <header>
-    <nav>
-        <div class="logo">
-            <a href="/index.html"><h1>Besvärliga människor</h1></a>
-        </div>
-        <div class="nav-right">
-            <div class="nav-services">
-                <a href="/tjanster.html">Tjänster</a>
-            </div>
-            <div class="nav-about">
-                <a href="/ommig.html">Om mig</a>
-            </div>
-            <div class="dropdown">
-                <a href="#" class="drop-menu">Inspiration</a>
-                <div class="dropdown-content">
-                    <a href="teori.html">Teori</a>
-                    <a href="verktyg.html">Verktyg</a>
-                </div>
-            </div>
-            <div class="nav-contact">
-                <a href="/kontakt.html">Kontakt</a>
-            </div>
-        </div>
-    </nav>
+    
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="/index.html">Besvärliga människor</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Hem<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ommig.html">Bakgrund</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="verktyg.html">Verktyg</a>
+      </li>     
+      <li class="nav-item">
+        <a class="nav-link" href="kontakt.html">Kontakt</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
 </header>
 <div class="hero-filter">
     <div class="hero-image">
     </div>
-    <h2>Om mig</h2>
+    <h2>Bakgrund</h2>
 </div>
 <hr class="hr-start">
 <section>
     <div class="about-container">
+        <div class="general-heading">
+    <h2>Om mig</h2>
+    </div>
         <div class="about-picture">
             <img src="images/tobias.jpg" alt="Tobias Höckert">
             <div class="about-text-one">
-            <h4>Utbildning</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, dicta excepturi eveniet accusantium 
-            consequuntur harum, quasi, quas nulla in sunt et. Est nisi veritatis non vitae assumenda fugiat aliquam sint.</p>
+            <h4><strong>Tobias Höckert</strong></h4>
+            <p>Min professionella bakgrund är beteendevetare och livscoach, men jag har även ett förflutet som både dörrvakt och behandlingsassistent. 
+            Jag har genom åren jobbat med att rehabilitera psykiskt sjuka, missbrukare och kriminella, vilket gett mig djupa kunskaper om extremerna av mänskligt beteende.</p>
+        </div>
+                <div class="about-philosophy">
+            <h3>Min filosofi</h3>
+            <p>I mötet med andra människor, är det den som har tillgång till flexibilitet i sitt beteende som kommer att ha störst möjlighet att påverka situationen.</p>
+            <hr class="rule-philosophy">
+            <p>Människor är inte sitt beteende. När vi interagerar med någon som är besvärlig, så är det olämpligheten i deras beteende, inte deras person, som vi adresserar.</p>
+            <hr class="rule-philosophy">
+            <p>Alla mänskliga beteenden - även de mest avskyvärda eller bisarra - bottnar i en positiv avsikt. Människor gör så gott de kan med de resurser de har tillgängliga.
+            Ibland behöver de hjälp att få syn på sina valmöjligheter och sitt agerande.</p>
         </div>
         </div>
         <div class="about-text-two">
@@ -63,13 +82,33 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde tempora nulla pariatur explicabo nemo labore 
             commodi aliquam fugit officia fuga aperiam rerum architecto laboriosam, quod error officiis maxime, deserunt laudantium.</p>
         </div>
-        <div class="about-philosophy">
-            <h3>Min filosofi</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam at rem soluta esse magnam dolore repudiandae rerum?
-            Unde, quibusdam magnam porro blanditiis, nesciunt laborum nemo earum accusantium cupiditate qui dolore.</p>
+        <hr class="hr-start">
+<div class="general-heading">
+    <h2>Teori & forskning</h2>
+    </div>
+<div class="theory-container">
+        <div class="column theory-one">
+                <h4>Teori 1</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas voluptatem dicta non esse repellat? Eaque reprehenderit, reiciendis cupiditate architecto accusantium nobis eveniet laborum doloribus est magnam facere ipsa in facilis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, harum amet! Delectus nulla ipsam nesciunt temporibus harum labore dolor tempore eveniet, ab, perferendis possimus. Numquam quod perspiciatis sit error! Assumenda?</p>
         </div>
+        <div class="column theory-two">
+            <h4>Teori 2</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam nobis iste odio repellendus sit sint tenetur libero magnam pariatur corporis atque officia natus fugiat eveniet unde, fugit, mollitia obcaecati!</p>
+        </div>
+        <div class=" column theory-three">
+            <h4>Teori 3</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet repellat nobis tenetur reiciendis inventore fuga rem saepe asperiores quae nisi ab, corporis eligendi voluptate dolores molestiae autem! Error, tenetur iusto.</p>
+        </div>
+        <div class="column theory-four">
+            <h4>Teori 4</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti voluptatibus minus, dolores veritatis quos reiciendis, harum autem magnam odio quaerat beatae magni accusantium sint possimus cum, facere excepturi praesentium?</p>
+        </div>    
+    </div>
+
         <div class="button-container">
-            <button class="cta-button">Kontakt</button>
+            <form>
+                <button class="cta-button" formaction="/kontakt.html">Kontakt</button>
+            </form>
         </div>
     </div>
     
