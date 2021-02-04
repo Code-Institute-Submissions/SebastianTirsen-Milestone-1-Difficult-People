@@ -21,12 +21,16 @@ nav {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+    color: #f4d06f;
 }
 
 .navbar-dark .navbar-brand {
     color: #f4d06f;
-    font-size: 40px;
+    font-size: 36px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff8f0;
 }
 
 /*----------------------------------Hero-image-------------------------------*/
@@ -67,7 +71,6 @@ hr {
 }
 
 .hero-filter h2 {
-    
     color: #fff8f0;
     position: absolute;
     top: 45%;
@@ -84,17 +87,11 @@ hr {
 .message-first {
     color:#fff8f0;
     width: 35%;
-    font-size: 20px;
-}
-
-.message-first h2 {
-    margin-top: 0;
 }
 
 .message-second {
     color:#fff8f0;
     width: 35%;
-    font-size: 20px;
     display: flex;
     align-items: center;
 }
@@ -102,7 +99,7 @@ hr {
 .message-first-text {
     color:#444444;
     padding: 5px;
-    width: 80%;
+    width: 65%;
     margin: 24px auto;
     text-align: center;
 }
@@ -110,7 +107,7 @@ hr {
 .message-second-text {
     color:#444444;
     padding: 5px;
-    width: 80%;
+    width: 65%;
     margin: auto;
     text-align: center;
     margin-bottom: 24px;
@@ -127,6 +124,7 @@ hr {
 #testimonials-heading h3{
     margin: 24px auto;
     text-align: center;
+    font-style: normal;
 }
 
 #testimonials-container > div {
@@ -141,7 +139,7 @@ hr {
 .cta-button {
     margin: 48px;
     padding: 24px 40px;
-    font-size: 32px;
+    font-size: 1.75rem;
     cursor: pointer;
     text-transform: uppercase;
     text-align: center;
@@ -177,8 +175,6 @@ hr {
     color:#fff8f0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    bottom: 0;
     padding-top: 16px;
 }
 
@@ -190,10 +186,11 @@ hr {
    margin-left: 16px;
     display: inline-block;
     width: 15%;
+    font-size: 0.75rem;
 }
 
 .acclaims {
-    margin: 20px;
+    margin: 0;
     display: inline-block;
 }
 
@@ -202,18 +199,24 @@ hr {
 }
 
 .social-media {
-    width: 15%;
+    width: 20%;
     display: inline-block;
 }
 
 .social-media a {
     margin: 10px;
     display: inline-block;
+    font-size: 1.5rem;
+}
+
+.social-media span {
+    font-size: 0.75rem;
 }
 
 .footer-contact {
 display: inline-block;
 width: 15%;
+font-size: 0.75rem;
 }
 
 /*----------------------------------tjanster-services-------------------------------*/
@@ -253,19 +256,27 @@ width: 15%;
 .column {
     background-color: #fff8f0;
     text-align: center;
-    height: 280px;
+    height: 288px;
     border: 1px solid #444444;
+    padding: 16px;
+    box-shadow: 5px 5px 5px #44444487;
 }
 
 /*----------------------------------About-ommig-------------------------------*/
 
 .about-container {
     color: #444444;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-picture {
+    width: 104%;
 }
 
 .about-picture img {
     margin-top: 32px;
-    margin-left: 32px;
+    margin-left: 144px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -274,10 +285,11 @@ width: 15%;
 
 .about-text-one {
     display: inline-block;
-    width: 40%;
-    text-align: center;
+    width: 51%;
+    text-align: left;
     color: #444444;
-    vertical-align: bottom; 
+    vertical-align: bottom;
+    margin-left: 40px;
 }
 
 .about-text-two {
@@ -309,6 +321,13 @@ width: 15%;
     align-items: center;
     margin: 64px auto;
     border: 1px solid #444444;
+    font-weight: 300;
+    background: #444444;
+    color: #fff8f0;
+}
+
+.about-philosophy h3 {
+    font-weight: 300;
 }
 
 .about-philosophy p {
@@ -317,14 +336,19 @@ width: 15%;
 
 .rule-philosophy {
     width: 300px;
-    border: 0.5px solid #444444;
+    border: 0.5px solid #fff8f0;
 }
+
+
+/*----------------------------------About-timeline------------------------------*/
 
 .timeline-item {
     padding: 4em 2em 0 2em;
     position: relative;
-    color: #392f5a;
+    color: #444444;
     border-left: 1px solid;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .timeline-item p {
@@ -356,7 +380,7 @@ width: 15%;
 }
 
 .timeline-container {
-    margin: 48px auto;
+    margin: 100px auto;
 }
 /*----------------------------------Contact-form-Kontakt-------------------------------*/
 
@@ -364,7 +388,10 @@ width: 15%;
     color: #444444;
     background-color: #fff8f0;
     padding: 32px;
-    text-align: center;
+}
+
+.signup-form {
+align-items: center;
 }
 
 .text-input {
@@ -377,9 +404,9 @@ width: 15%;
 
 #comment {
     display: block;
-    margin: 0 auto;
+    margin: 0;
     margin-bottom: 24px;
-    width: 40%;
+    width: 55%;
     height: 184px;
     border: 1px solid black;
     border-radius: 8px;
@@ -400,7 +427,7 @@ width: 15%;
 
 .theory-container > div {
     margin: 16px;
-    width: 25%;
+    width: 30%;
     height: auto;
     border-radius: 25px;
 } 
