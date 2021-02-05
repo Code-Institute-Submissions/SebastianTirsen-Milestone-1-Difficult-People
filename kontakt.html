@@ -46,34 +46,37 @@
 <section class="form-section">
 
     <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
-        <h2>Anmäl ditt intresse!  <i class="fas fa-file-signature"></i></h2>
-        <div class="fornamn">
-            <label for="fname"><h3>Förnamn</h3></label>
-            <input class="text-input" type="text" id="fname" name="first_name" required>
-        </div>
-        <div class="efternamn">
-            <label for="lname"><h3>Efternamn</h3></label>
-            <input class="text-input" type="text" id="lname" name="last_name" required>
-        </div>
-        <div class="mailadress">
-            <label for="email"><h3>Email Address</h3></label>
-            <input class="text-input" type="email" id="email" name="email_address" required>
-        </div>
-        
-        <div class="radio-section">
-            <input type="radio" id="lecture" name="service-type" value="lecture" required>
-            <label for="lecture"> Föreläsning</label>
-            <input type="radio" id="workshop" name="service-type" value="workshop">
-            <label for="workshop"> Workshop</label>
-            <input type="radio" id="one-to-one" name="service-type" value="one-to-one">
-            <label for="one-to-one"> One-to-one</label>
-        </div>
 
-        <label for="comment"><h3>Skriv kommentar/fråga/önskemål här:</h3></label>
-        <input type="textarea" id="comment" name="comment">
+        <h2>Anmäl ditt intresse!</h2>
+        <div class="row mb-16">
+    <div class="col">
+        <label for="fname"><h5>Förnamn</h5></label>
+      <input type="text" id="fname" class="form-control" name="first_name" placeholder="Förnamn" required>
+    </div>
+    <div class="col">
+        <label for="lname"><h5>Efternamn</h5></label>
+      <input type="text" id="lname" class="form-control" name="last_name" placeholder="Efternamn" required>
+    </div>
+  </div>
+        <div class="form-group">
+    <label for="exampleInputEmail1"><h5>Mail adress</h5></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+    </div>    
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5>Välj tjänst</h5></label>
+    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+        <option selected>Välj...</option>
+        <option value="1">Föreläsning</option>
+        <option value="2">Workshop</option>
+        <option value="3">One-to-one</option>
+    </select>
 
+    <div class="form-group">
+    <label class="mt-16" for="exampleFormControlTextarea1"><h5>Skriv kommentar/fråga/önskemål här:</h5></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="btn-send">
         <input class="cta-button" type="submit" value="skicka">
-
+    </div>
     </form>
   
 </section>    

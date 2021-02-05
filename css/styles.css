@@ -7,6 +7,16 @@
     background-color: #fff8f0;
  }
 
+ /*----------------------------------Helpers-------------------------------*/
+
+ .mb-16 {
+    margin-bottom: 16px;
+ }
+
+ .mt-16 {
+     margin-top: 16px;
+ }
+
 /*----------------------------------Navbar-------------------------------*/
 
 nav {
@@ -44,7 +54,7 @@ nav {
     justify-content: center;
     height: 600px;
     padding: 30px;
-    margin-bottom: 48px;
+    margin-bottom: 0;
 }
 
 .hero-image {
@@ -63,7 +73,8 @@ hr {
     border: 3px solid #ff8811;
     background-color: #ff8811;
     width: 100px;
-}
+    margin-bottom: 48px;
+}   
 
 .hero-filter {
     font-size: 1.5em;
@@ -110,7 +121,7 @@ hr {
     width: 65%;
     margin: auto;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 /*----------------------------------Startpage-Testimonials-------------------------------*/
@@ -272,10 +283,11 @@ font-size: 0.75rem;
 
 .about-picture {
     width: 104%;
+    margin-bottom: 64px;
 }
 
 .about-picture img {
-    margin-top: 32px;
+    margin-top: 16px;
     margin-left: 144px;
     width: 300px;
     height: 300px;
@@ -290,6 +302,11 @@ font-size: 0.75rem;
     color: #444444;
     vertical-align: bottom;
     margin-left: 40px;
+    font-weight: 300;
+}
+
+.about-text-one h4 {
+    font-weight: 300;
 }
 
 .about-text-two {
@@ -384,14 +401,22 @@ font-size: 0.75rem;
 }
 /*----------------------------------Contact-form-Kontakt-------------------------------*/
 
+.signup-form h2 {
+text-align: center;
+margin-bottom: 32px;
+}
+
+.btn-send {
+    display: flex;
+    justify-content: center;
+}
+
 .form-section {
     color: #444444;
     background-color: #fff8f0;
     padding: 32px;
-}
-
-.signup-form {
-align-items: center;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 .text-input {
