@@ -93,7 +93,7 @@ hr {
     filter: brightness(0.5);
 }
 
-/*----------------------------------Startpage-messages-Budskap-------------------------------*/
+/*----------------------------------Cta-messages-------------------------------*/
 
 .message-first {
     color:#fff8f0;
@@ -124,7 +124,7 @@ hr {
     margin-bottom: 32px;
 }
 
-/*----------------------------------Startpage-Testimonials-------------------------------*/
+/*----------------------------------Testimonials-------------------------------*/
 
 #testimonials-container {
     margin-top: 48px;
@@ -145,7 +145,7 @@ hr {
     margin: 0 auto;
 }
 
-/*----------------------------------cta-button------------------------------*/
+/*----------------------------------Cta-button------------------------------*/
 
 .cta-button {
     margin: 48px;
@@ -179,7 +179,7 @@ hr {
     background-color: #fff8f0;
 }
 
-/*----------------------------------footer-------------------------------*/
+/*----------------------------------Footer-------------------------------*/
 
 .footer-container {
     background-color: #392f5a;
@@ -230,7 +230,7 @@ width: 15%;
 font-size: 0.75rem;
 }
 
-/*----------------------------------tjanster-services-------------------------------*/
+/*----------------------------------Services-------------------------------*/
 
 .general-heading {
     text-align: center;
@@ -273,7 +273,7 @@ font-size: 0.75rem;
     box-shadow: 5px 5px 5px #44444487;
 }
 
-/*----------------------------------About-ommig-------------------------------*/
+/*----------------------------------About me-------------------------------*/
 
 .about-container {
     color: #444444;
@@ -349,15 +349,17 @@ font-size: 0.75rem;
 
 .about-philosophy p {
     width: 450px;
+    margin: 16px auto;
 }
 
 .rule-philosophy {
     width: 300px;
     border: 0.5px solid #fff8f0;
+    margin: 0 auto;
 }
 
 
-/*----------------------------------About-timeline------------------------------*/
+/*----------------------------------History timeline------------------------------*/
 
 .timeline-item {
     padding: 4em 2em 0 2em;
@@ -399,7 +401,7 @@ font-size: 0.75rem;
 .timeline-container {
     margin: 100px auto;
 }
-/*----------------------------------Contact-form-Kontakt-------------------------------*/
+/*----------------------------------Contact-form-------------------------------*/
 
 .signup-form h2 {
 text-align: center;
@@ -441,7 +443,7 @@ margin-bottom: 32px;
     padding-top: 32px;
 }
 
-/*----------------------------------Theory-Teori-------------------------------*/
+/*----------------------------------Theory-------------------------------*/
 
 .theory-container {
     color: #444444;
@@ -457,7 +459,7 @@ margin-bottom: 32px;
     border-radius: 25px;
 } 
 
-/*----------------------------------Tools-Verktyg-------------------------------*/
+/*----------------------------------Tools-------------------------------*/
 
 .line-container {
     display: flex;
