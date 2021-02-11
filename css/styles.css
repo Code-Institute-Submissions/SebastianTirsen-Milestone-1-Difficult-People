@@ -52,30 +52,24 @@ nav {
     color: #fff8f0;
 }
 
+.nav-container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
 /*----------------------------------Hero-image-------------------------------*/
 
 .hero-image-start {
-    background-image: url("/images/hero-one.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     display: flex;
+    flex-direction: column;
+    background-color: #392f5a;
     justify-content: center;
     height: 600px;
     padding: 30px;
     margin-bottom: 0;
-}
-
-.hero-image {
-    background-image: url("/images/hero-one.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    height: 600px;
-    padding: 30px;
-    margin-bottom: 48px;
 }
 
 hr {
@@ -104,16 +98,27 @@ hr {
 
 /*----------------------------------Cta-messages-------------------------------*/
 
-.message-first {
+.hero-image-start > div {
     color:#fff8f0;
-    width: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex: 1 1  auto;
+    max-width: 1400px;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.message-first {
+    background-image: url("/images/1.png");
 }
 
 .message-second {
-    color:#fff8f0;
-    width: 35%;
-    display: flex;
-    align-items: center;
+    background-image: url("/images/2.png");
+}
+
+.message-third {
+    background-image: url("/images/3.png");
 }
 
 .message-first-text {
