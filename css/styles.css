@@ -141,8 +141,9 @@ hr {
 /*----------------------------------Testimonials-------------------------------*/
 
 #testimonials-container {
-    margin-top: 48px;
-    margin-bottom: 48px;
+    display: flex;
+    width: 66%;
+    margin: 0 auto;
     background-color: #fff8f0;
 }
 
