@@ -259,7 +259,7 @@ font-size: 0.75rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     grid-gap: 20px;
-    width: 64%;
+    max-width: 800px;
     margin: 48px auto;
     background-color: #fff8f0;
 }
@@ -282,10 +282,11 @@ font-size: 0.75rem;
 .column {
     background-color: #fff8f0;
     text-align: center;
-    height: 288px;
+    max-width: 400px;
     border: 1px solid #444444;
     padding: 16px;
     box-shadow: 5px 5px 5px #44444487;
+    margin: 0 auto;
 }
 
 /*----------------------------------About me-------------------------------*/
@@ -503,3 +504,21 @@ margin-bottom: 32px;
     background-color: #ff8811;
     border-color: #ff8811;
 }
+
+
+@media only screen and (max-width:768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .nav-container {
+        display: block;
+    }
+    .navbar-brand {
+        width: calc(100% - 88px);
+    }
+
+}
+
