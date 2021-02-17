@@ -496,6 +496,29 @@ margin-bottom: 32px;
     border-color: #ff8811;
 }
 
+@media only screen and (max-width:576px) {
+    .tools {
+        margin: 20px auto;
+        width: 100%;
+    }
+    .line-container {
+        display: block;
+    }
+    .form-section {
+        max-width: none;
+        padding: 24px;
+    }
+    .btn.btn-warning {
+        position: relative;
+        left: 36%;
+    }
+    .hero-filter h2 {
+        left: 39%;
+    }
+}
+
+
+
 
 @media only screen and (max-width:768px) {
     .services-container {
