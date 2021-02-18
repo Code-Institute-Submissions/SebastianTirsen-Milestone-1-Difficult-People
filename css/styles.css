@@ -289,7 +289,7 @@ font-size: 0.75rem;
 }
 
 .about-picture {
-    width: 104%;
+    width: 100%;
     margin-bottom: 64px;
 }
 
@@ -515,10 +515,37 @@ margin-bottom: 32px;
     .hero-filter h2 {
         left: 39%;
     }
+    .acclaims {
+        display: none;
+    }
+    .social-media {
+        width: 30%;
+    }
+    .description {
+        width: 30%;
+    }
+    .social-media a {
+        display: block;
+        margin: 0 24px;
+    }
+    .message-first-text {
+        width: 95%;
+        text-align: left;
+    }
+    .message-second-text {
+        width: 95%;
+        text-align: left;
+    }
+    .about-philosophy {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }   
+    .about-philosophy p {
+    width: 100%;
+    padding: 0 16px;
 }
-
-
-
+}
 
 @media only screen and (max-width:768px) {
     .services-container {
@@ -543,3 +570,21 @@ margin-bottom: 32px;
 
 }
 
+@media only screen and (max-width:1200px) {
+    .about-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+   .about-picture img    {
+       margin-left: 0;
+   }
+   }
+
+   @media only screen and (max-width:673px) {
+   .about-picture {
+       text-align: center;
+        }
+    .about-picture img    {
+       margin-bottom: 24px;
+   }
+   }
