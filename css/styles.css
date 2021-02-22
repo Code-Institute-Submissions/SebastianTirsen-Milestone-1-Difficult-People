@@ -92,7 +92,7 @@ hr {
     color: #fff8f0;
 }
 
-.hero-image {
+.hero-image-filter {
     filter: brightness(0.5);
 }
 
@@ -285,7 +285,7 @@ font-size: 0.75rem;
 .about-container {
     color: #444444;
     width: 100%;
-    margin: 0 auto;
+    margin: 48px auto 0;
 }
 
 .about-picture {
@@ -542,16 +542,32 @@ margin-bottom: 32px;
         border-radius: 0;
     }   
     .about-philosophy p {
-    width: 100%;
-    padding: 0 16px;
+        width: 100%;
+        padding: 0 16px;
+    }
+    .timeline-container {
+        margin: 0px 208px 64px 0px;
+    }
+    .timeline-item {
+        width: 64%;
+    }
 }
 
-.timeline-container {
-    margin: 0px 208px 64px 0px;
-}
-.timeline-item {
-    width: 64%;
-    }
+@media only screen and (max-width:673px) {
+   .about-picture {
+       text-align: center;
+        }
+    .about-picture img {
+       margin-bottom: 24px;
+   }
+   .theory-container {
+        width: 100%;
+        display: block;
+   }
+   .theory-container > div  {
+        width: 94%;
+        margin: 16px auto;
+   }
 }
 
 @media only screen and (max-width:768px) {
@@ -574,7 +590,6 @@ margin-bottom: 32px;
     .navbar-brand {
         width: calc(100% - 88px);
     }
-
 }
 
 @media only screen and (max-width:1200px) {
@@ -582,25 +597,9 @@ margin-bottom: 32px;
         max-width: 900px;
         margin: 0 auto;
     }
-   .about-picture img    {
+   .about-picture img {
        margin-left: 0;
    }
-   }
+}
 
-   @media only screen and (max-width:673px) {
-   .about-picture {
-       text-align: center;
-        }
-    .about-picture img    {
-       margin-bottom: 24px;
-   }
-
-   .theory-container {
-           width: 100%;
-        display: block;
-   }
-   .theory-container > div  {
-        width: 50%;
-        margin: 16px auto;
-   }
-   }
+   
