@@ -1,5 +1,6 @@
  body {
     background-color: #fff8f0;
+    padding-top: 248px;
  }
 
  section {
@@ -112,12 +113,24 @@ hr {
     background-image: url("../images/1.png");
 }
 
+.message-first h2{
+    margin-top: 16px;
+}
+
 .message-second {
     background-image: url("../images/2.png");
 }
 
+.message-second h2{
+    margin-top: 16px;
+}
+
 .message-third {
     background-image: url("../images/3.png");
+}
+
+.message-third h2{
+    margin-top: 16px;
 }
 
 .message-first-text {
@@ -215,10 +228,6 @@ hr {
    margin-left: 16px;
     width: 15%;
     font-size: 0.75rem;
-}
-
-.acclaims img {
-    width: 80px;
 }
 
 .social-media a {
@@ -497,6 +506,16 @@ margin-bottom: 32px;
 }
 
 @media only screen and (max-width:576px) {
+    body {
+        padding-top: 198px;
+    }
+    #logoimage {
+        width: 150px;
+        height: 150px;
+    }
+    .hero-image-start {
+        height: 800px;
+    }
     .tools {
         margin: 20px auto;
         width: 100%;
@@ -511,13 +530,10 @@ margin-bottom: 32px;
     }
     .btn.btn-warning {
         position: relative;
-        left: 36%;
+        left: 33%;
     }
     .hero-filter h2 {
-        left: 39%;
-    }
-    .acclaims {
-        display: none;
+        left: 33%;
     }
     .social-media {
         width: 30%;
@@ -537,6 +553,11 @@ margin-bottom: 32px;
         width: 95%;
         text-align: left;
     }
+    .about-text-one {
+        width: 84%;
+        text-align: center;
+        margin-left: 0;
+    }
     .about-philosophy {
         width: 100%;
         height: auto;
@@ -547,7 +568,7 @@ margin-bottom: 32px;
         padding: 0 16px;
     }
     .timeline-container {
-        margin: 0px 208px 64px 0px;
+        margin: 0px 159px 64px 0px;
     }
     .timeline-item {
         width: 64%;
