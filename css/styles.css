@@ -109,15 +109,15 @@ hr {
 }
 
 .message-first {
-    background-image: url("/images/1.png");
+    background-image: url("../images/1.png");
 }
 
 .message-second {
-    background-image: url("/images/2.png");
+    background-image: url("../images/2.png");
 }
 
 .message-third {
-    background-image: url("/images/3.png");
+    background-image: url("../images/3.png");
 }
 
 .message-first-text {
