@@ -187,16 +187,16 @@ hr {
     background-color: #ff8811;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 5px 5px 5px #44444487;
 }
 
 .cta-button:hover {
-    background-color: #3e8e41
+    background-color: #392f5a;
 }
 
 .cta-button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  background-color: #392f5a;
+  box-shadow: 5px 5px 5px #44444487;
   transform: translateY(4px);
 }
 
