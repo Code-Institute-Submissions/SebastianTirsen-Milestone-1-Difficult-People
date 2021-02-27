@@ -1,6 +1,7 @@
  body {
     background-color: #fff8f0;
     padding-top: 248px;
+    font-family: 'Montserrat', sans-serif;
  }
 
  section {
@@ -363,7 +364,7 @@ font-size: 0.75rem;
 }
 
 .about-philosophy p {
-    width: 450px;
+    width: 480px;
     margin: 16px auto;
 }
 
@@ -514,7 +515,7 @@ margin-bottom: 32px;
         height: 150px;
     }
     .hero-image-start {
-        height: 800px;
+        height: 908px;
     }
     .tools {
         margin: 20px auto;
@@ -602,6 +603,9 @@ margin-bottom: 32px;
     #testimonials-container {
         width: 100%;
         display: block;
+    }
+    .form-section {
+        padding: 40px;
     }
 }
 
