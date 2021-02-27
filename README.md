@@ -4,12 +4,11 @@ Difficult people Website
 View live project here:
 https://github.com/SebastianTirsen/Milestone-1---Besv-rliga-m-nniskor.
 
-This is the website for the swedish company site "Difficult People". It is designed to be easy to use with only four pages and responsive on a range of devices.
-
+This is the website for the swedish company site "Difficult People". The site was ordered by the founder of the company Tobias Höckert to be used to draw the attention of potential clients. It is designed to be easy to use with only four pages and responsive on a range of devices.
 
 User Experience (UX)
 Business Goals
-The business of "Difficult people to make money.
+The business goal of "Difficult people is to make money.
 To make money the company sells different kinds of services.
 The companys services are mainly lectures, workshops and onte-to-one coaching.
 The purpose of the services is to help people handle conflicts, difficult situations and people that act unpredictable and even aggressive. The company consists of one person and the services are solely dependent on his skills and availability.
@@ -34,13 +33,13 @@ As a Frequent User, I want to come in contact with the company repesentative to 
 
 Design
 Colour Scheme
-The first of the three main colours used is called "Space Cadet" and is used for the background to the navigation links, the heroimage and the footer. The seccond colur is called ""Floral white" and is used for the main part of the body. The hird colur is called "Dark orange and is used for the buttons. 
+The first of the three main colours used is called "Space Cadet" and is used for the background to the navigation links, the heroimage and the footer. The seccond colur is called ""Floral white" and is used for the main part of the body. The third colur is called "Dark orange" and is used for the buttons. 
 
 Typography
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a modern looking font used frequently in programming, so it is both attractive and appropriate.
+The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being loaded into the site correctly. Montserrat is both attractive and appropriate. I makes for a modern appearance.
 
 Imagery
-Imagery is important. The large, background hero image is constructed of three individual pictures that is choosen to catch the visitors attention and incite feelings. The texts that overlay the pictures are written to call ask the visitor questions and call to action and make the visitor read moore and sign up to services.
+Imagery is important. The large, background hero image is constructed of three individual pictures that is choosen to catch the visitors attention and incite feelings of recognition with the people in the pictures. The texts that overlay the pictures are written to ask the visitor important questions and call them to action and make them sign up to services.
 
 Wireframes
 One initial wireframe was done in Adobe XD. After that no further work with the Wireframe was don,. For that reason the finished site looks quite a bit different than the first and only Wireframe mockup of the site.
