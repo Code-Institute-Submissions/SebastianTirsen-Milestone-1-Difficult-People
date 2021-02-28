@@ -39,7 +39,7 @@ Typography
 The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being loaded into the site correctly. Montserrat is both attractive and appropriate. I makes for a modern appearance.
 
 Imagery
-Imagery is important. The large, background hero image is constructed of three individual pictures that is choosen to catch the visitors attention and incite feelings of recognition with the people in the pictures. The texts that overlay the pictures are written to ask the visitor important questions and call them to action and make them sign up to services.
+The large, background hero image is constructed of three individual pictures that is choosen to catch the visitors attention and incite feelings of recognition with the people in the pictures. The texts that overlay the pictures are written to ask the visitor important questions and call them to action and make them sign up to services.
 
 Wireframes
 One initial wireframe was done in Adobe XD. After that no further work with the Wireframe was don,. For that reason the finished site looks quite a bit different than the first and only Wireframe mockup of the site.
@@ -71,8 +71,8 @@ GitHub:
 GitHub is used to store the projects code after being pushed from Git.
 Photoshop:
 Photoshop was used to create the logo, resizing images and editing photos for the website.
-Balsamiq:
-Balsamiq was used to create the wireframes during the design process.
+Adobe XD:
+Adobe XD was used to create the wireframes during the design process.
 Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 

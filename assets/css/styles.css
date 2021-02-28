@@ -116,6 +116,7 @@ hr {
 
 .message-first h2{
     margin-top: 16px;
+    margin-left: 16px;
 }
 
 .message-second {
@@ -124,6 +125,7 @@ hr {
 
 .message-second h2{
     margin-top: 16px;
+    margin-left: 16px;
 }
 
 .message-third {
@@ -132,6 +134,7 @@ hr {
 
 .message-third h2{
     margin-top: 16px;
+    margin-left: 16px;
 }
 
 .message-first-text {
@@ -520,7 +523,7 @@ margin-bottom: 32px;
         height: 150px;
     }
     .hero-image-start {
-        height: 908px;
+        height: 998px;
     }
     .tools {
         margin: 20px auto;
@@ -579,8 +582,13 @@ margin-bottom: 32px;
     .timeline-item {
         width: 64%;
     }
+.col {
+    display: contents;
 }
-
+#fname {
+    margin-bottom: 16px;
+}
+}
 @media only screen and (max-width:673px) {
    .about-picture {
        text-align: center;
@@ -597,6 +605,7 @@ margin-bottom: 32px;
         margin: 16px auto;
    }
 }
+
 
 @media only screen and (max-width:768px) {
     .services-container {
