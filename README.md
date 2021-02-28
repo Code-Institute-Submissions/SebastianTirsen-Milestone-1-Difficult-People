@@ -2,7 +2,7 @@
 Difficult people Website
 
 View live project here:
-https://github.com/SebastianTirsen/Milestone-1---Besv-rliga-m-nniskor.
+https://sebastiantirsen.github.io/Milestone-1-Difficult-People/.
 
 This is the website for the swedish company site "Difficult People". The site was ordered by the founder of the company Tobias Höckert to be used to draw the attention of potential clients. It is designed to be easy to use with only four pages and responsive on a range of devices.
 
