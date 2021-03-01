@@ -513,6 +513,70 @@ margin-bottom: 32px;
     background-color: #ff8811;
     border-color: #ff8811;
 }
+/*----------------------------------Media queries-------------------------------*/
+@media only screen and (max-width:1200px) {
+    .about-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+   .about-picture img {
+       margin-left: 0;
+   }
+}
+
+@media only screen and (max-width:992px) {
+    .nav-container {
+        display: block;
+    }
+    .navbar-brand {
+        width: calc(100% - 88px);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+        width: 94%;
+        margin: 16px auto;
+        margin-bottom: 48px;
+    }
+    #testimonials-container > div {
+        width: 64%;
+    }
+    #testimonials-container {
+        width: 100%;
+        display: block;
+    }
+    .form-section {
+        padding: 40px;
+    }
+    .hero-filter h2 {
+        left: 44%;
+    }
+    #hero-contact h2 {
+        left: 42%;
+    }
+    .tools {
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width:673px) {
+   .about-picture {
+       text-align: center;
+        }
+    .about-picture img {
+       margin-bottom: 24px;
+   }
+   .theory-container {
+        width: 100%;
+        display: block;
+   }
+   .theory-container > div  {
+        width: 94%;
+        margin: 16px auto;
+   }
+}
 
 @media only screen and (max-width:576px) {
     body {
@@ -530,16 +594,12 @@ margin-bottom: 32px;
         width: 100%;
     }
     .line-container {
-        display: block;
+        flex-direction: column;
     }
     .form-section {
         max-width: none;
         padding: 24px;
         text-align: left;
-    }
-    .btn.btn-warning {
-        position: relative;
-        left: 33%;
     }
     .hero-filter h2 {
         left: 33%;
@@ -582,64 +642,21 @@ margin-bottom: 32px;
     .timeline-item {
         width: 64%;
     }
+    #hero-contact h2 {
+        left: 30%;
+    }
+    #hero-tools h2 {
+        left: 37.5%;
+    }
 .col {
     display: contents;
 }
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 #fname {
     margin-bottom: 16px;
-}
-}
-@media only screen and (max-width:673px) {
-   .about-picture {
-       text-align: center;
-        }
-    .about-picture img {
-       margin-bottom: 24px;
-   }
-   .theory-container {
-        width: 100%;
-        display: block;
-   }
-   .theory-container > div  {
-        width: 94%;
-        margin: 16px auto;
-   }
-}
-
-
-@media only screen and (max-width:768px) {
-    .services-container {
-        grid-template-columns: 1fr;
-    }
-    #testimonials-container > div {
-        width: 64%;
-    }
-    #testimonials-container {
-        width: 100%;
-        display: block;
-    }
-    .form-section {
-        padding: 40px;
     }
 }
-
-@media only screen and (max-width:992px) {
-    .nav-container {
-        display: block;
-    }
-    .navbar-brand {
-        width: calc(100% - 88px);
-    }
-}
-
-@media only screen and (max-width:1200px) {
-    .about-container {
-        max-width: 900px;
-        margin: 0 auto;
-    }
-   .about-picture img {
-       margin-left: 0;
-   }
-}
-
    
