@@ -227,13 +227,16 @@ hr {
 .footer-container i {
     color:#fff8f0;
 }
-
 .description {
    margin-left: 16px;
     width: 15%;
     font-size: 0.75rem;
 }
-
+.social-media {
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
 .social-media a {
     margin: 10px;
     font-size: 1.5rem;
@@ -246,6 +249,14 @@ hr {
 .footer-contact {
 margin-right: 16px;
 font-size: 0.75rem;
+width: 15%;
+text-align: right;
+}
+#postcode {
+    margin-right: 23px;
+}
+#country {
+    margin-right: 40px;
 }
 
 /*----------------------------------Services-------------------------------*/
@@ -306,8 +317,8 @@ font-size: 0.75rem;
 }
 
 .about-picture img {
-    margin-top: 16px;
-    margin-left: 144px;
+    display: block;
+    margin: 16px auto;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -315,12 +326,11 @@ font-size: 0.75rem;
 }
 
 .about-text-one {
-    display: inline-block;
+    margin: 16px auto;
+    text-align: center;
     width: 51%;
-    text-align: left;
     color: #444444;
     vertical-align: bottom;
-    margin-left: 40px;
     font-weight: 300;
 }
 
@@ -519,9 +529,6 @@ margin-bottom: 32px;
         max-width: 900px;
         margin: 0 auto;
     }
-   .about-picture img {
-       margin-left: 0;
-   }
 }
 
 @media only screen and (max-width:992px) {
@@ -558,6 +565,9 @@ margin-bottom: 32px;
     }
     .tools {
         padding: 8px;
+    }
+    .social-media a {
+        display: block;
     }
 }
 
@@ -604,6 +614,10 @@ margin-bottom: 32px;
     .hero-filter h2 {
         left: 33%;
     }
+    .footer-contact {
+        width: 32%;
+        text-align: left;
+    }
     .social-media {
         width: 30%;
     }
@@ -625,7 +639,6 @@ margin-bottom: 32px;
     .about-text-one {
         width: 84%;
         text-align: center;
-        margin-left: 0;
     }
     .about-philosophy {
         width: 100%;
