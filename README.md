@@ -1,4 +1,3 @@
-
 #
 
 ## **Difficult people Website**
@@ -9,11 +8,14 @@ View live project here:
 
 [Difficult People Homepage	](https://sebastiantirsen.github.io/Milestone-1-Difficult-People/)
 
-  
-
-This is the website for the swedish company "Difficult People". The site was commissioned by the founder of the company Tobias Höckert to be used to draw the attention of potential clients. It is designed to be easy to use with only four pages and responsive to tablet size and mobile screens.
+This is the website for the swedish company "Difficult People". The site was commissioned by the founder of the company Mr Tobias Höckert to be used to draw the attention of potential clients. It is designed to be easy to use with only four pages and responsive to tablet size and mobile screens.
 
 **User Experience (UX)**
+
+<u>Project goals</u>
+The foremost goal of the Project "Difficult People" is to help people that have problems with difficult people and difficult situations in the workplace or in their private life. The project, or the site, helps the users find information and to get help to better handle difficult people and solve problematic situations.
+
+From the business owners point of view it helps him to draw attention to his business and to channel the customers requests and questions to him in a structured way.
 
 <u>Business Goals</u>
 
@@ -23,9 +25,10 @@ To make money the company sells different kinds of services.
 
 The companys services are mainly lectures, workshops and onte-to-one coaching.
 
-The purpose of the services is to help people handle conflicts,    difficult situations and people that act unpredictable and even    aggressive. The company consists of one person and the services are    solely dependent on his skills and availability.
+The purpose of the services is to help people handle conflicts,    difficult situations and people that act unpredictable and even  aggressive. The company consists of one person and the services are    solely dependent on his skills and availability.
 
 The business goal of the site itself is to make the visitor read the information on the site and sign up to one or more of the services.
+
 
 <u>User stories</u>
 
@@ -245,7 +248,13 @@ The biggest improvements for making the the site perform better was stated as "S
 
 On some mobile devices the first heading on top oft the filtered hero Image is not quite in the center of the page.
 
-~~On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.~~
+The menu stopped working in mobile view. This was due to the fact that the script links where in the wrong order and the Bootstrap links/scripts where loaded in the wrong order. After chatting with Tutor support i rearranged the script tags in the following order:
+
+﻿1: jQuery  
+﻿2: popper  
+﻿3: bootstrap
+
+That solved the issue.
 
 **Deployment**
 
@@ -267,53 +276,39 @@ Scroll back down through the page to locate the now published site link in the "
 
 <u>Forking the GitHub Repository</u>
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps.
+By forking the GitHub Repository you make a copy of the original repository on the GitHub account to view and/or make changes without affecting the original repository by using the following steps.
 
-Log in to GitHub and locate the GitHub Repository
+1. Log in to GitHub and locate the GitHub Repository
 
-At the top left of the Repository, just above the "Settings" Button on the menu, locate the "Fork" Button and click it.
+2. Click the button named Fork in the top-right corner of the the repository.
 
 You should now have a copy of the original repository in your GitHub account.
 
-<u>Making a Local Clone</u>
+<u>Creating a local clone of your fork</u>
 
-Log in to GitHub and locate the GitHub Repository
+1. Log in to GitHub and locate the GitHub Repository
 
-Under the repository name, click "Clone or download".
+2. Above the list of files, click the button called Code.
 
-To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+3.  Press the little bucket symbol to the right of the URL.
 
-Open Git Bash
+<u>To clone the repository using HTTPS.</u>
 
-Change the current working directory to the location where you want the cloned directory to be made.
+1. Copy the URL that is shown after you clicked the Code button.
 
-Type git clone, and then paste the URL you copied in Step 3.
+2. Create a new repository of your own.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+3. Open a new workspace in Gitpod.
 
-Press Enter. Your local clone will be created.
+4. Open the terminal and type the command git clone and paste in the URL, then press enter.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-
-> Cloning into `CI-Clone`...
-
-> remote: Counting objects: 10, done.
-
-> remote: Compressing objects: 100% (8/8), done.
-
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-
-> Unpacking objects: 100% (10/10), done.
-
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
-
-  
+Click [Here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) for more detailed explanations of the above processes.
 
 **Credits**
 
 <u>Code</u>
 
-Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+Bootstrap4: Bootstrap Library used throughout the project.
 
 The timeline is borrowed from Codeinstitute, the section of the this Developer Education that that you can find here [Putting It All Together | Mini Project with Bootstrap 4](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment)  The section is called "My Work History - Adding a work history timeline"
 
@@ -323,7 +318,10 @@ All content was written by the company representative.
 
 **Media**
 
-The hero image came from Unsplash and the image of the company representative ar provided by himself.
+The hero image came from Unsplash and the image of the company representative ar provided by himself. The unedited pictures can be found in the links below:
+https://unsplash.com/photos/pd5woRdl1aI
+https://unsplash.com/photos/8dvyPDYa35Q
+https://unsplash.com/photos/06-k8DZFJ3w
 
 **Acknowledgements**
 
