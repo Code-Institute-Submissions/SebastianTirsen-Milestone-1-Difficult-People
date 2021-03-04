@@ -11,7 +11,7 @@ View live project here:
 
   
 
-This is the website for the swedish company "Difficult People". The site was ordered by the founder of the company Tobias Höckert to be used to draw the attention of potential clients. It is designed to be easy to use with only four pages and responsive to tablet size and mobile screens.
+This is the website for the swedish company "Difficult People". The site was commissioned by the founder of the company Tobias Höckert to be used to draw the attention of potential clients. It is designed to be easy to use with only four pages and responsive to tablet size and mobile screens.
 
 **User Experience (UX)**
 
@@ -37,11 +37,11 @@ As a First Time Visitor, I want to find information about the company representa
 
 As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-As a First Time Visitor, I want to look for testimonials to understand what their users think of the company and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+As a First Time Visitor, I want to look for testimonials to understand what the customers think of the company and to see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
 *Returning Visitor Goals*
 
-As a Returning Visitor, I want to read moore about the different services and to dive deeper into the information and research on the subject.
+As a Returning Visitor, I want to read more about the different services and to dive deeper into the information and research on the subject.
 
 As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
@@ -51,13 +51,13 @@ As a Returning Visitor, I want to find social media links.
 
 As a Frequent User, I want to check to see if there are any newly added information to read up on or tools that are free for me to download and use.
 
-As a Frequent User, I want to come in contact with the company repesentative to ask moore questions about different aspects on the matter and ask for possibilities to order customized services and events.
+As a Frequent User, I want to come in contact with the company representative to ask more questions about different aspects on the matter and ask for possibilities to order customized services and events.
 
 <u>Design</u>
 
 *Colour Scheme*
 
-The first of the three main colours used is called "Space Cadet" and is used for the background to the navigation links, the heroimage and the footer. The second colour is called ""Floral white" and is used for the main part of the body. The third colour is called "Dark orange" and is used for the buttons.
+The first of the three main colors used is called "Space Cadet" and is used for the background to the navigation links, the hero image and the footer. The second color is called ""Floral white" and is used for the main part of the body. The third color is called "Dark orange" and is used for the buttons.
 
 *Typography*
 
@@ -69,7 +69,7 @@ The large, background hero image is constructed of three individual pictures tha
 
 <u>Wireframes</u>
 
-One initial wireframe was done in Adobe XD. After that no further work with the Wireframe was done. For that reason the finished site looks quite a bit different than the first and only Wireframe mockup of the site.
+One initial wireframe was done in Adobe XD. After that no further work with the Wireframe was done. For that reason the finished site looks a bit different than the first and only Wireframe mockup of the site.
 
 [Wireframe Difficult People / Besvärliga Människor](https://xd.adobe.com/view/c53a4abd-459f-451b-9d6a-bb17a7ee836e-9069/)
 
@@ -125,7 +125,7 @@ Adobe XD:
 
 Adobe XD was used to create the wireframes during the design process.
 
-<u>Testing</u>
+**Testing**
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -134,171 +134,148 @@ W3C Markup Validator - Results: Document checking completed. No errors or warnin
 W3C CSS Validator - Results: (CSS level 3 + SVG). Congratulations! No Error Found.
 
 
-**Testing User Stories from User Experience (UX) Section.** 
+**Testing User Stories from User Experience (UX) Section.**
 
-~~First Time Visitor Goals*
-As a First Time Visitor, I want to find more information regarding the subject and what kind of services the company provides. I also want to be able to contact the company to know more and to sign up for services. That is the main purpose of the site from the user/customer perspective.
-As a First Time Visitor, I want to find information about the company representative, his background such as education and working experience.
-As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-As a First Time Visitor, I want to look for testimonials to understand what their users think of the company and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-*Returning Visitor Goals*
-As a Returning Visitor, I want to read moore about the different services and to dive deeper into the information and research on the subject.
-As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-As a Returning Visitor, I want to find social media links.
-*Frequent User Goals*
-As a Frequent User, I want to check to see if there are any newly added information to read up on or tools that are free for me to download and use.
-As a Frequent User, I want to come in contact with the company repesentative to ask moore questions about different aspects on the matter and ask for possibilities to order customized services and events.
-First Time Visitor Goals~~
+<u>Home page</u>
 
-*Home page*
+As a First Time Visitor, I want to find more information regarding the subject and learn more about the kinds of services the company provide. I also want to be able to contact the company to know more and to sign up for services. That is the main purpose of the site from the user/customer perspective. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the kinds of services the company provide.
+When the users enters the site, the first thing they see on the top of the page is the company logo to the left and an easy to read navigation bar in contrasting color on the right. The navigation makes it possible for the user to go to the About-, Tools- and Contact-page directly by clicking on their respective links. The navigation also lets the users return to the Home-page by clicking on the Home-link. The Users can also return to the Home-page by clicking the company logo on the top left hand side of every page. This layout  at the top of the page is present on all the pages.
 
-When the users enters the site, the first thing they see on the top of the page is the company logo to the left and an easy to read navigation bar in contrasting colour on the right. The navigation makes it possible for the user to go to the About-, Tools- and Contact-page directly by clicking on their respective links. The navigation also lets the users return to the Home-page by clicking on the Home-link. The Users can also return to the Home-page by clicking the company logo on the top left hand side of every page. This layout  at the top of the page is present on all the pages.
+Beneath the navigation there is a hero image that consists of three images with two questions and one statement that calls the users to action and the purpose is to make them want to learn to handle difficult people.  
 
-Beneath the navigation there is a hero image that consists of three images with two questions and one statement that calls the users to action and the purpose is to make them want to learn to handle difficult people.  Underneath the hero Image is a button for the users to press if they want to contact the company. The user can choose to click the button or scroll further down the page. When the users presses the button they are redirected to the contact-page to fill in their contact-information and send them to the company for further contact.
+Underneath the hero Image is a button for the users to press if they want to contact the company. The user can choose to click the button or scroll further down the page. When the users clicks the button they are redirected to the contact page to fill in their contact information and send the information to the company for further contact.
 
 After the button there are two texts called "Underlying factors" and "Important tools" to familiarize the users with the subject.
 
-When the users scrolls further the next content is a presentation of the companys services in the form of four fields of text with the headlines "Breakfast lectures", "Workshops", "Unstoppable! - Full-day training" and "One-to-one. The users can read about the services and then decide to scroll back to the contact-button and press it, or scroll further down the page to get more content.
+When the users scrolls further down the page the next content is a presentation of the companys services in the form of four fields of text with the headlines "Breakfast lectures", "Workshops", "Unstoppable! - Full-day training" and "One-to-one. The users can read about the services and then decide to scroll back to the contact-button and press it, or scroll further down the page to get more content.
 
-The next piece of information further down the page is testimonials from people that has used the companys services and have given some kind of statement about how they feel about the services. As a First Time Visitor, I want to look for these testimonials to understand what the users think of the services and the company and see if they are to be trusted. 
+As a First Time Visitor, I want to look for testimonials to understand what the users think of the company and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-At the bottom of every page there is a section with a short desription of the company purpose, clickable icons representing the links to three social media platforms and lastly the companys physical address in Sweden. 
+The next piece of information further down the page is testimonials from people that have used the companys services and have given some kind of statement about how they feel about the services. As a First Time Visitor, I want to look for these testimonials to understand what the customers think of the services and the company and see if they are to be trusted. 
 
-About page
+At the bottom of every page there is a section with a short description of the company purpose to the left, clickable icons representing the links to three social media platforms in the middle and lastly the companys physical address in Sweden to the right. 
 
-Tools page
+<u>About page</u>
 
-Contact page
+As a First Time Visitor, I want to find information about the company representative, his background such as education and working experience.
 
-The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+Entering the About page the user sees the same layout on the top of the page as in the Home page. The company logo and the navigation bar are the same. The navigation makes it possible for the user to go to the About-, Tools- and Contact-page directly by clicking on their respective links. The navigation also lets the users return to the Home-page by clicking on the Home-link. The Users can also return to the Home-page by clicking the company logo on the top left hand side of the page.
 
-At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+Beneath the navigation there is the same hero image that consists of three images, but on this page the images are made a bit darker with a filter. This is made to make the user aware of that they are on the sam site but on another page. In the middle of the hero image there is a heading that tells the users that they are visiting the About page.
 
-On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+Under the hero image there is a section with a picture of the founder and representative of the company and a short text about his experiences. 
 
-I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+"My Philosophy" is the next piece of content. The information is divided into three statements and placed in a round symbol-like shape to make the user feel the importance of the information. The background is also made dark and the text light, to underline the importance.
 
-  
+The company founders education and work experiences are further visualized in the next part called "My history". The content is presented in the form of a timeline to make it easy to follow and understand.
 
-Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+The next section of the page is called "Theory" and consists of three boxes side-by side. In the boxes there are more information surveys on threats and violence, about pathological narcissists and psychopaths. This information is to further educate the users and to make them aware of the width of the problems that this kinds of persons can cause, and of course to make them click the contact button that follows directly underneath the section.
 
-The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+The bottom of the page is exactly the same as the Home page for the users to recognize and make the them feel at ease. There is a section with a short description of the company purpose to the left, clickable icons representing the links to three social media platforms in the middle and lastly the companys physical address in Sweden to the right. 
 
-At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+<u>Tools page</u>
 
-Returning Visitor Goals
+Entering the Tools page the user sees the same layout on the top of the page as in the Home and About page. The company logo and the navigation bar are the same. The navigation makes it possible for the user to go to the About-, Tools- and Contact-page directly by clicking on their respective links. The navigation also lets the users return to the Home-page by clicking on the Home-link. The Users can also return to the Home-page by clicking the company logo on the top left hand side of the page.
 
-As a Returning Visitor, I want to find the new programming challenges or hackathons.
+Beneath the navigation there is the same filtered hero image as in the About page. This is made to make the user aware of that they are on the sam site but on another page. In the middle of the hero image there is a heading that tells the users that they are visiting the Tools page.
 
-  
+The next section of the page consists of a heading and a short texts that explains the main content on the page, which is further reading on the subject and material that the user can download and use free of charge.
 
-These are clearly shown in the banner message.
+Under the the short text the "tools" are presented with a sentence and following that a clickable button with the the text "read more" or "download" depending on how the material is to be handled. The material is opened in new browser windows to make the experience of the user easier. When they have finished reading they can just close the new window and return to the site and the same page as before.
 
-They will be directed to a page with another hero image and call to action.
+Underneath the Tools is a button for the users to press if they want to contact the company. When the users clicks the button they are redirected to the contact page to fill in their contact information and send the information to the company for further contact.
+ 
+ The bottom of the page is exactly the same as the Home and About page for the users to recognize and make the them feel at ease. There is a section with a short description of the company purpose to the left, clickable icons representing the links to three social media platforms in the middle and lastly the companys physical address in Sweden to the right.
+
+<u>Contact page</u>
+
+Entering the Tools page the user sees the same layout on the top of the page as in the Home, About and Tools page. The company logo and the navigation bar are the same. The navigation makes it possible for the user to go to the About-, Tools- and Contact-page directly by clicking on their respective links. The navigation also lets the users return to the Home-page by clicking on the Home-link. The Users can also return to the Home-page by clicking the company logo on the top left hand side of the page.
+
+Beneath the navigation there is the same filtered hero image as in the About and Tools page. This is made to make the user aware of that they are on the sam site but on another page. In the middle of the hero image there is a heading that tells the users that they are visiting the Contact page.
+
+The first text under the hero image is a heading that calls the users to action to make them send the company their request form more information and services. Underneath the heading the contact form follows. Here the user fills in first-name, surname, email, choose a service from a dropdown menu, writes comments and questions. The user then press the following button to send the information to the company. The button is for the moment out of use, because of the fact that the site is not in use yet.
+
+The bottom of the page is exactly the same as the Home, About and Tools page for the users to recognize and make the them feel at ease. There is a section with a short description of the company purpose to the left, clickable icons representing the links to three social media platforms in the middle and lastly the companys physical address in Sweden to the right.
+
+*Returning Visitor Goals*
+
+As a Returning Visitor, I want to read more about the different services and to dive deeper into the information and research on the subject. This information is easy for the users to  find and download on the Tools page.
 
 As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+To make that as smooth as possible a contact button is found on every page. That contact button takes the user to the Contact page. Also the the company adress is found at the bottom right on every page, as well as social media links.
 
-  
+*Frequent User Goals*
+As a Frequent User, I want to check to see if there are any newly added information to read up on or tools that are free for me to download and use. That can easily be don by checking the Tools page.
 
-The navigation bar clearly highlights the "Contact Us" Page.
+As a Frequent User, I want to come in contact with the company representative to ask more questions about different aspects on the matter and ask for possibilities to order customized services and events. That can easily be done by the users by sending in a request via the Contact page with the questions written in the textfield. Alternatively they can message the organisation on social media that the users can find at the bottom of every page.  The external links to the different social media platforms, will open in a new tab to ensure the users can get back to the website easily.
 
-Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
 
-The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-
-Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-
-The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-
-  
-
-The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-
-Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-
-If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
-Frequent User Goals
-
-As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-  
-
-The user would already be comfortable with the website layout and can easily click the banner message.
-
-As a Frequent User, I want to check to see if there are any new blog posts.
-
-  
-
-The user would already be comfortable with the website layout and can easily click the blog link
-
-As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-
-  
-
-At the bottom of every page their is a footer which content is consistent throughout all pages.
-
-To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-
-There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-
-Further Testing
+**Further Testing**
 
 The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneX, iPhone 5 and iPhone 12 .
 
 A large amount of testing was done to ensure that all pages were linking correctly.
 
-Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+The company representative as well as family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-Known Bugs
+**Performance**
 
-On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+The site performance was tested using Lighthouse in the developer tool in Chrome.
 
-A white gap can be seen to the right of the footer and navigation bar as a result.
+The performance for mobile use was scored as:
+Performance 65
+Accessibility 94
+Best Practices 100
+SEO 92
 
-On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+The performance for desktop use was scored as:
 
-Deployment
+Performance 86
+Accessibility 92
+Best Practices 100
+SEO 90
 
-GitHub Pages
+The biggest improvements for making the the site perform better was stated as "Serve images in next.
+-gen formats, properly size images and eliminate render-blocking resources."
 
-The project was deployed to GitHub Pages using the following steps...
+**Known Bugs**
 
-  
+On some mobile devices the first heading on top oft the filtered hero Image is not quite in the center of the page.
+
+~~On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.~~
+
+**Deployment**
+
+<u>GitHub Pages</u>
+
+The project was deployed to GitHub Pages using the following steps.
 
 Log in to GitHub and locate the GitHub Repository
 
-At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-
-Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+At the top left of the Repository, click the "Settings" Button on the menu.
 
 Scroll down the Settings page until you locate the "GitHub Pages" Section.
 
-Under "Source", click the dropdown called "None" and select "Master Branch".
+Under "Source", click the dropdown called "None" and select "Master Branch" and then click the Save Button directly to the right.
 
 The page will automatically refresh.
 
 Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-Forking the GitHub Repository
+<u>Forking the GitHub Repository</u>
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-  
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps.
 
 Log in to GitHub and locate the GitHub Repository
 
-At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+At the top left of the Repository, just above the "Settings" Button on the menu, locate the "Fork" Button and click it.
 
 You should now have a copy of the original repository in your GitHub account.
 
-Making a Local Clone
+<u>Making a Local Clone</u>
 
 Log in to GitHub and locate the GitHub Repository
 
@@ -332,40 +309,26 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 
   
 
-Credits
+**Credits**
 
-Code
-
-The full-screen hero image code came from this StackOverflow post
-
-  
+<u>Code</u>
 
 Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
-  
+The timeline is borrowed from Codeinstitute, the section of the this Developer Education that that you can find here [Putting It All Together | Mini Project with Bootstrap 4](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment)  The section is called "My Work History - Adding a work history timeline"
 
-MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found Here
+**Content**
 
-  
+All content was written by the company representative.
 
-Content
+**Media**
 
-All content was written by the developer.
+The hero image came from Unsplash and the image of the company representative ar provided by himself.
 
-  
-
-Psychological properties of colours text in the README.md was found here
-
-  
-
-Media
-
-All Images were created by the developer.
-
-Acknowledgements
+**Acknowledgements**
 
 My Mentor for continuous helpful feedback.
 
-  
+My friend Rickard Lundby for all the help he gave and all that he taught me.
 
-Tutor support at Code Institute for their support.
+Tutor support at Code Institute for their invaluable support.
